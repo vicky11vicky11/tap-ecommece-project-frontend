@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Fashions</title>
+    <link
+      rel="stylesheet"
+      href="fashion.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header id="navbar">
+      <!-- logo -->
+      <div class="logo">
+        <!-- logo link -->
+        <a href="../index.html">
+          <!-- logo image -->
+          <img
+            src="../images/header/logo.png"
+            alt=" logo " />
+        </a>
+      </div>
+      <!-- search box -->
+      <div class="search-box">
+        <!-- search bar -->
+        <input
+          type="search"
+          name="search"
+          id="search"
+          class="search-bar"
+          placeholder="Search Here ..." />
+        <!-- search button -->
+        <button class="search-btn">Search</button>
+      </div>
+
+      <!-- navbar -->
+      <navbar class="navbar">
+        <!-- navbar list -->
+        <ul>
+          <li><a href="./fashion.html">Fashion</a></li>
+          <li><a href="./electronics.html">Electronics</a></li>
+          <li><a href="./groceries.html">Groceries</a></li>
+        </ul>
+      </navbar>
+
+      <!-- account -->
+      <div class="account">
+        <!-- account icon -->
+        <img
+          src="../images/header/favorite-heart.png"
+          class="nav-icon"
+          alt="fav" />
+        <img
+          src="../images/header/shopping-cart.png"
+          class="nav-icon"
+          alt="cart" />
+        <img
+          src="../images/header/profile-user.png"
+          class="nav-icon"
+          alt="user" />
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- filters -->
+      <aside id="filters">
+        <h2 class="filter-heading">
+          <span class="color">F</span>ilter<span class="color">s</span>
+        </h2>
+
+        <!-- categories -->
+        <div class="categories">
+          <!-- categories heading -->
+          <h3 class="category-heading">
+            <i class="fi fi-ss-category"></i>
+            <span class="color">c</span>ategories
+          </h3>
+          <!-- category list -->
+          <ul class="category-list">
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#shirt-products "><span class="color">Shirts</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#t-shirt-products"
+                ><span class="color">T-Shirts</span></a
+              >
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#footwear-products"
+                ><span class="color">Footwears</span></a
+              >
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#watch-products"><span class="color">Watchs</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#bag-products"><span class="color">Bags</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- price range -->
+        <div class="price-range">
+          <h3 class="price-heading">
+            <i class="fi fi-sr-tags"></i>
+            <span class="color">p</span>rice
+          </h3>
+          <!-- price slider -->
+          <div class="price-slider">
+            <input type="checkbox" />
+            <span> <span class="color">&LessLess;</span> 500</span> <br />
+            <input type="checkbox" />
+            <span>500 <span class="color">&minus;</span> 1000</span> <br />
+            <input type="checkbox" />
+            <span>1000 <span class="color">&minus;</span> 2000</span> <br />
+            <input type="checkbox" />
+            <span>2000 <span class="color">&minus;</span> 5000</span> <br />
+            <input type="checkbox" />
+            <span> <span class="color">&GreaterGreater; </span> 5000</span>
+            <br />
+          </div>
+        </div>
+        <!-- dicount range -->
+        <div class="discount-range">
+          <h3 class="discount-heading">
+            <i class="fi fi-sr-badge-percent"></i>
+            <span class="color">d</span>iscount
+          </h3>
+          <!-- discount -->
+          <div class="discount-slider">
+            <input type="checkbox" />
+            <span> 50 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 40 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 30 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 20 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 10 <span class="color">&percnt;</span> </span> <br />
+          </div>
+        </div>
+      </aside>
+
+      <!-- main -->
+      <main id="main">
+        <!-- products -->
+        <section id="slider">
+          <!-- slider heading -->
+          <h1 class="slider-heading">
+            <span class="color">Fashion</span> Products
+          </h1>
+          <!-- slider images -->
+          <div class="slider-images">
+            <img
+              src="../images/fashion/fashion-1.jpg"
+              alt="electronics" />
+            <img
+              src="../images/fashion/fashion-2.jpg"
+              alt="electronics" />
+            <img
+              src="../images/fashion/fashion-3.jpg"
+              alt="electronics" />
+          </div>
+        </section>
+        <!--shirt product cards -->
+        <section id="shirt-products">
+          <h3 class="product-title"><span class="color">S</span>hirts</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img shirt-img-1 ">
+                <img
+                  src="../images/fashion/card/shirt/men.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Men</span></div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img shirt-img-2 ">
+                <img
+                  src="../images/fashion/card/shirt/women.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Women</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img shirt-img-3 ">
+                <img
+                  src="../images/fashion/card/shirt/kids.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Kids</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--tshirt product cards -->
+        <section id="t-shirt-products">
+          <h3 class="product-title"><span class="color">T-</span>shirts</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img t-shirt-img-1">
+                <img
+                  src="../images/fashion/card/tshirt/men.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Men</span></div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img t-shirt-img-2">
+                <img
+                  src="../images/fashion/card/tshirt/women.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Women</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img t-shirt-img-3 resize-img">
+                <img
+                  src="../images/fashion/card/tshirt/kids.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Kids</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--footwear product cards -->
+        <section id="footwear-products">
+          <h3 class="product-title"><span class="color">f</span>ootwear</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img footwear-img-1">
+                <img
+                  src="../images/fashion/card/footwear/men.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Men</span></div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img footwear-img-2">
+                <img
+                  src="../images/fashion/card/footwear/women.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Women</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img footwear-img-3">
+                <img
+                  src="../images/fashion/card/footwear/kids.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Kids</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--watches product cards -->
+        <section id="watch-products">
+          <h3 class="product-title"><span class="color">w</span>atches</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img watch-img-1">
+                <img
+                  src="../images/fashion/card/watch/smart.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Smart</span></div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img watch-img-2">
+                <img
+                  src="../images/fashion/card/watch/digital.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Digital</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img watch-img-3">
+                <img
+                  src="../images/fashion/card/watch/analog.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Analog</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--bag product cards -->
+        <section id="bag-products">
+          <h3 class="product-title"><span class="color">b</span>ags</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img bag-img-1">
+                <img
+                  src="../images/fashion/card/bag/backback.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Smart</span></div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img bag-img-2">
+                <img
+                  src="../images/fashion/card/bag/travel.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Digital</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img bag-img-3">
+                <img
+                  src="../images/fashion/card/bag/trolley.jpg"
+                  alt="product img"
+                  width="250px"
+                  height="310px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Analog</span>
+                </div>
+                <div class="product-price"><span class="color">$</span>10</div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer id="footer">
+      <!-- footer logo -->
+      <div class="footer-logo">
+        <a href="../index.html">
+          <img
+            src="../images/header/logo.png"
+            alt=" logo "
+            width="150"
+            height="150" />
+        </a>
+      </div>
+      <!-- footer links -->
+      <ul class="footer-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./fashion.html">Fashion</a></li>
+        <li><a href="./electronics.html">Electronics</a></li>
+        <li><a href="./groceries.html">Groceries</a></li>
+      </ul>
+      <!-- contact us -->
+      <div class="contact-us">
+        <p class="contact-heading">contact <span class="color">us</span></p>
+        <p class="contact-phone">
+          <i class="fi fi-sr-circle-phone-flip"></i>
+          <span class="color">+91 </span>1234567890
+        </p>
+        <p class="contact-mail">
+          <i class="fi fi-br-envelope"></i>contact<span class="color">@</span
+          >example.<span class="color">com</span>
+        </p>
+
+        <!-- copyright -->
+        <p class="copyright">
+          Copyright &copy; <span class="color">2024</span>, All Rights
+          <span class="color">Reserved</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

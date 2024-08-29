@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header id="navbar">
+      <!-- logo -->
+      <div class="logo">
+        <!-- logo link -->
+        <a href="./index.html">
+          <!-- logo image -->
+          <img
+            src="./images/header/logo.png"
+            alt=" logo " />
+        </a>
+      </div>
+      <!-- search box -->
+      <div class="search-box">
+        <!-- search bar -->
+        <input
+          type="search"
+          name="search"
+          id="search"
+          class="search-bar"
+          placeholder="Search Here ..." />
+        <!-- search button -->
+        <button class="search-btn">Search</button>
+      </div>
+
+      <!-- navbar -->
+      <navbar class="navbar">
+        <!-- navbar list -->
+        <ul>
+          <li><a href="./pages/fashion.html">Fashion</a></li>
+          <li><a href="./pages/electronics.html">Electronics</a></li>
+          <li><a href="./pages/groceries.html">Groceries</a></li>
+        </ul>
+      </navbar>
+
+      <!-- account -->
+      <div class="account">
+        <!-- account icon -->
+        <img
+          src="./images/header/favorite-heart.png"
+          class="nav-icon"
+          alt="fav" />
+        <img
+          src="./images/header/shopping-cart.png"
+          class="nav-icon"
+          alt="cart" />
+        <img
+          src="./images/header/profile-user.png"
+          class="nav-icon"
+          alt="user" />
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <section id="hero">
+        <!-- hero details -->
+        <div class="hero-details">
+          <!-- hero heading -->
+          <h1 class="hero-heading">
+            <span class="heading-letter color">S</span>hop<span
+              class="heading-letter color"
+              >C</span
+            >art
+          </h1>
+          <!-- hero sub heading -->
+          <h3 class="hero-sub-heading">
+            <img
+              src="./images/hero/arrow.png"
+              alt=" arrow "
+              width="15px" />
+            Top <span class="sub-heading-letter color">Brands</span>
+            <img
+              src="./images/hero/arrow.png"
+              alt=" arrow "
+              width="15px" />
+            Exclusive <span class="sub-heading-letter color">Offers</span>
+            <img
+              src="./images/hero/arrow.png"
+              alt=" arrow "
+              width="15px" />
+            Unbeatable <span class="sub-heading-letter color">Prices</span>
+          </h3>
+          <!-- categories -->
+          <div class="categories">
+            <!-- categories heading -->
+            <h2 class="categories-heading">
+              <span class="categories-heading-letter color">c</span>ategories
+            </h2>
+            <!-- categories list -->
+            <ul>
+              <li>
+                <img
+                  src="./images/hero/male-clothes.png"
+                  alt=" male clothes "
+                  class="category-icon" />
+                <a href="./pages/fashion.html">
+                  <span class="color">Fashion</span></a
+                >
+              </li>
+              <li>
+                <img
+                  src="./images/hero/hardware.png"
+                  alt=" electronics "
+                  class="category-icon" />
+                <a href="./pages/electronics.html">
+                  <span class="color">Electronics</span></a
+                >
+              </li>
+              <li>
+                <img
+                  src="./images/hero/groceries.png"
+                  alt=" groceries "
+                  class="category-icon" />
+                <a href="./pages/groceries.html">
+                  <span class="color">Groceries</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- hero image -->
+        <div class="hero-img">
+          <img
+            src="./images/hero/hero-1.png"
+            alt="hero image"
+            width="500px"
+            height="500px" />
+        </div>
+      </section>
+
+      <!-- features -->
+      <section id="features">
+        <!-- features heading -->
+        <h2 class="features-heading">
+          Shop <span class="color">The</span> Latest
+          <span class="color">Trends</span>
+        </h2>
+        <!-- features images -->
+        <div class="features-imgs">
+          <a href="./pages/fashion.html"
+            ><img
+              src="./images/features/fashion.jpg"
+              alt="fashion"
+          /></a>
+          <a href="./pages/electronics.html">
+            <img
+              src="./images/features/electronics.jpg"
+              alt="electronics"
+          /></a>
+          <a href="./pages/groceries.html"
+            ><img
+              src="./images/features/grocery.webp"
+              alt="groceries"
+          /></a>
+        </div>
+      </section>
+
+      <!-- contact us -->
+      <section id="contact">
+        <!-- contact heading -->
+        <h2 class="contact-heading">Contact <span class="color">Us</span></h2>
+        <!-- contact paragraph -->
+        <p class="contact-para">
+          We'd <span class="color">love</span> to hear from
+          <span class="color">you</span>. Please
+          <span class="color">feel</span> free to get in
+          <span class="color">touch</span> with us.
+        </p>
+        <!-- contact form -->
+        <div class="contact-form">
+          <form>
+            <!-- contact form table -->
+            <table>
+              <!-- contact form table rows -->
+              <tr>
+                <!-- contact form table columns -->
+                <td>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name "
+                    required />
+                </td>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="50"
+                    rows="10"
+                    placeholder=" Your Message"
+                    required></textarea>
+                </td>
+              </tr>
+            </table>
+            <!-- submit button -->
+            <input
+              type="submit"
+              value="Submit"
+              class="submit-btn" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <!-- footer logo -->
+      <div class="footer-logo">
+        <a href="./index.html">
+          <img
+            src="./images/header/logo.png"
+            alt=" logo "
+            width="150"
+            height="150" />
+        </a>
+      </div>
+      <!-- footer links -->
+      <ul class="footer-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/fashion.html">Fashion</a></li>
+        <li><a href="./pages/electronics.html">Electronics</a></li>
+        <li><a href="./pages/groceries.html">Groceries</a></li>
+      </ul>
+      <!-- contact us -->
+      <div class="contact-us">
+        <p class="contact-heading">contact <span class="color">us</span></p>
+        <p class="contact-phone">
+          <i class="fi fi-sr-circle-phone-flip"></i>
+          <span class="color">+91 </span>1234567890
+        </p>
+        <p class="contact-mail">
+          <i class="fi fi-br-envelope"></i>contact<span class="color">@</span
+          >example.<span class="color">com</span>
+        </p>
+
+        <!-- copyright -->
+        <p class="copyright">
+          Copyright &copy; <span class="color">2024</span>, All Rights
+          <span class="color">Reserved</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

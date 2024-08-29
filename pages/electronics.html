@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Electronics</title>
+    <link
+      rel="stylesheet"
+      href="electronics.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header id="navbar">
+      <!-- logo -->
+      <div class="logo">
+        <!-- logo link -->
+        <a href="../index.html">
+          <!-- logo image -->
+          <img
+            src="../images/header/logo.png"
+            alt=" logo " />
+        </a>
+      </div>
+      <!-- search box -->
+      <div class="search-box">
+        <!-- search bar -->
+        <input
+          type="search"
+          name="search"
+          id="search"
+          class="search-bar"
+          placeholder="Search Here ..." />
+        <!-- search button -->
+        <button class="search-btn">Search</button>
+      </div>
+
+      <!-- navbar -->
+      <navbar class="navbar">
+        <!-- navbar list -->
+        <ul>
+          <li><a href="./fashion.html">Fashion</a></li>
+          <li><a href="./electronics.html">Electronics</a></li>
+          <li><a href="./groceries.html">Groceries</a></li>
+        </ul>
+      </navbar>
+
+      <!-- account -->
+      <div class="account">
+        <!-- account icon -->
+        <img
+          src="../images/header/favorite-heart.png"
+          class="nav-icon"
+          alt="fav" />
+        <img
+          src="../images/header/shopping-cart.png"
+          class="nav-icon"
+          alt="cart" />
+        <img
+          src="../images/header/profile-user.png"
+          class="nav-icon"
+          alt="user" />
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- filters -->
+      <aside id="filters">
+        <h2 class="filter-heading">
+          <span class="color">F</span>ilter<span class="color">s</span>
+        </h2>
+
+        <!-- categories -->
+        <div class="categories">
+          <!-- categories heading -->
+          <h3 class="category-heading">
+            <i class="fi fi-ss-category"></i>
+            <span class="color">c</span>ategories
+          </h3>
+          <!-- category list -->
+          <ul class="category-list">
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#mobile-products "><span class="color">Mobiles</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#laptop-products"><span class="color">Laptops</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#tablet-products"><span class="color">Tablets</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#airpod-products"><span class="color">airpods</span></a>
+            </li>
+            <li>
+              <i class="fi fi-br-caret-right"></i>
+              <a href="#home-appliances-products"><span class="color">home appliances</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- price range -->
+        <div class="price-range">
+          <h3 class="price-heading">
+            <i class="fi fi-sr-tags"></i>
+            <span class="color">p</span>rice
+          </h3>
+          <!-- price slider -->
+          <div class="price-slider">
+            <input type="checkbox" />
+            <span> <span class="color">&LessLess;</span> 5000</span> <br />
+            <input type="checkbox" />
+            <span>5000 <span class="color">&minus;</span> 10000</span> <br />
+            <input type="checkbox" />
+            <span>10000 <span class="color">&minus;</span> 20000</span> <br />
+            <input type="checkbox" />
+            <span>20000 <span class="color">&minus;</span> 50000</span> <br />
+            <input type="checkbox" />
+            <span> <span class="color">&GreaterGreater; </span> 50000</span>
+            <br />
+          </div>
+        </div>
+        <!-- dicount range -->
+        <div class="discount-range">
+          <h3 class="discount-heading">
+            <i class="fi fi-sr-badge-percent"></i>
+            <span class="color">d</span>iscount
+          </h3>
+          <!-- discount -->
+          <div class="discount-slider">
+            <input type="checkbox" />
+            <span> 50 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 40 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 30 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 20 <span class="color">&percnt;</span> </span> <br />
+            <input type="checkbox" />
+            <span> 10 <span class="color">&percnt;</span> </span> <br />
+          </div>
+        </div>
+      </aside>
+
+      <!-- main -->
+      <main id="main">
+        <!-- products -->
+        <section id="slider">
+          <!-- slider heading -->
+          <h1 class="slider-heading"><span class="color">Electronic</span> Products</h1>
+          <!-- slider images -->
+          <div class="slider-images">
+            <img
+              src="../images/electronics/electronics1.webp"
+              alt="electronics" />
+            <img
+              src="../images/electronics/electronics2.webp"
+              alt="electronics" />
+            <img
+              src="../images/electronics/electronics3.webp"
+              alt="electronics" />
+          </div>
+        </section>
+        <!--mobile product cards -->
+        <section id="mobile-products">
+          <h3 class="product-title"><span class="color">m</span>obiles</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img mobile-img-1">
+                <img
+                  src="../images/electronics/cards/mobile/apple.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Apple</span></div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img mobile-img-2">
+                <img
+                  src="../images/electronics/cards/mobile/infinix.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Infinix</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img mobile-img-3">
+                <img
+                  src="../images/electronics/cards/mobile/samsung.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Samsung</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--laptop product cards -->
+        <section id="laptop-products">
+          <h3 class="product-title"><span class="color">l</span>aptops</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img laptop-img-1">
+                <img
+                  src="../images/electronics/cards/laptop/acer.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Acer</span></div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img laptop-img-2">
+                <img
+                  src="../images/electronics/cards/laptop/infinix.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Infinix</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- tablet product cards -->
+        <section id="tablet-products">
+          <h3 class="product-title"><span class="color">t</span>ablets</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img tablet-img-1">
+                <img
+                  src="../images/electronics/cards/tablet/lenovo.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Lenovo</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img tablet-img-2">
+                <img
+                  src="../images/electronics/cards/tablet/realme.webp"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Realme</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- airpod product cards -->
+        <section id="airpod-products">
+          <h3 class="product-title"><span class="color">a</span>irpods</h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img airpod-img-1">
+                <img
+                  src="../images/electronics/cards/airbuds/noise.jpg"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name"><span class="color">Noise</span></div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img airpod-img-2">
+                <img
+                  src="../images/electronics/cards/airbuds/realme.jpg"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Realme</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 3 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img airpod-img-3">
+                <img
+                  src="../images/electronics/cards/airbuds/oneplus.jpg"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Oneplus</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- other products -->
+        <section id="home-appliances-products">
+          <h3 class="product-title">
+            <span class="color">home</span> appliances
+          </h3>
+          <div class="product-details">
+            <!-- product card 1 -->
+            <div class="product-card hot">
+              <!-- product image -->
+              <div class="product-img home-img-1">
+                <img
+                  src="../images/electronics/cards/other/washing.jpg"
+                  alt="product img" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Washing Machine</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+            <!-- product card 2 -->
+            <div class="product-card">
+              <!-- product image -->
+              <div class="product-img home-img-2">
+                <img
+                  src="../images/electronics/cards/other/fridge.jpg"
+                  alt="product img" height="430px" width="240px" />
+              </div>
+              <!-- product info -->
+              <div class="product-info">
+                <div class="product-name">
+                  <span class="color">Refrigerator</span>
+                </div>
+                <div class="product-price">
+                  <span class="color">$</span>1000
+                </div>
+              </div>
+              <!-- product cart -->
+              <div class="product-cart">
+                <div class="quantity">
+                  <button class="decrement">-</button>
+                  <span class="quantity-value color">1</span>
+                  <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer id="footer">
+      <!-- footer logo -->
+      <div class="footer-logo">
+        <a href="../index.html">
+          <img
+            src="../images/header/logo.png"
+            alt=" logo "
+            width="150"
+            height="150" />
+        </a>
+      </div>
+      <!-- footer links -->
+      <ul class="footer-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./fashion.html">Fashion</a></li>
+        <li><a href="./electronics.html">Electronics</a></li>
+        <li><a href="./groceries.html">Groceries</a></li>
+      </ul>
+      <!-- contact us -->
+      <div class="contact-us">
+        <p class="contact-heading">contact <span class="color">us</span></p>
+        <p class="contact-phone">
+          <i class="fi fi-sr-circle-phone-flip"></i>
+          <span class="color">+91 </span>1234567890
+        </p>
+        <p class="contact-mail">
+          <i class="fi fi-br-envelope"></i>contact<span class="color">@</span
+          >example.<span class="color">com</span>
+        </p>
+
+        <!-- copyright -->
+        <p class="copyright">
+          Copyright &copy; <span class="color">2024</span>, All Rights
+          <span class="color">Reserved</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
